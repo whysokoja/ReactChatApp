@@ -14,11 +14,11 @@ const userSchema = new mongoose.Schema({
         unique: true,
         max: 50
     },
-    phoneNumber: {
-        type: Number,
-        required: true,
-        unique: true
-    },
+    // phoneNumber: {
+    //     type: Number,
+    //     required: false,
+    //     unique: true
+    // },
     pass: {
         type: String,
         required: true,
