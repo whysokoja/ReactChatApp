@@ -68,7 +68,7 @@ const Container = styled.div`
   display: grid;
   grid-template-rows: 10% 75% 15%;
   overflow: hidden;
-  background: radial-gradient(circle at 18.7% 37.8%, rgb(250, 250, 250) 0%, rgb(225, 234, 238) 90%);
+  background: linear-gradient(90deg, rgb(255, 206, 236) 0%, rgb(217, 233, 246) 100%);
   .brand {
     display: flex;
     align-items: center;
@@ -78,7 +78,7 @@ const Container = styled.div`
       height: 2rem;
     }
     h3 {
-      color: #82B6DD;
+      color: #000;
       text-transform: uppercase;
     }
   }
@@ -97,7 +97,7 @@ const Container = styled.div`
       }
     }
     .contact {
-      background: linear-gradient(to right, #868f96 0%, #596164 100%);
+      background: radial-gradient(275px at -14% 125%, rgb(218, 134, 182) 0%, rgb(255, 255, 255) 100.7%);
       min-height: 5rem;
       cursor: pointer;
       width: 90%;
@@ -114,7 +114,7 @@ const Container = styled.div`
       }
       .username {
         h3 {
-          color: #fff;
+          color: #000;
         }
       }
     }
@@ -136,7 +136,7 @@ const Container = styled.div`
     }
     .username {
       h2 {
-        color: #82B6DD;
+        color: #000;
       }
     }
     @media screen and (min-width: 720px) and (max-width: 1080px) {
